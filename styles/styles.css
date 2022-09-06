@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}header{
+    position: relative;
+    
+}
+header img{
+    width: 100%;
+    height: 1024px;
+    
+    
+}
+
+
+
+header ul{
+    display: flex;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   justify-content: space-between;
+}
+header nav a{
+    color: #FFFFFF;
+    padding: 22px 26px;
+    background-color: #C4C4C4;
+    border-radius: 0px 35px 0px 35px;
+    
+    }
+header nav{
+    margin-top: 50px;
+   }
+header li{
+    margin-right: 80px;
+    font-size: 18px;
+}
+header a:hover{
+    background-color: #79B331;
+}
+.martkutxedi{
+    width: 420px;
+    height: 186px;
+    
+    position: absolute;
+    top: 212px;
+    right: 130px;
+}
+.wre{
+    width: 30px;
+    height: 30px;
+    background-color: #79B331;
+    border-radius: 50%;
+    position: relative;
+    animation: triali 3s infinite;
+}
+@keyframes triali {
+    0%{top: 0; left: 0;}
+    25%{ top: 0; left: 390px;}
+    50%{ top:156px ; left: 390px;}
+    75%{  top: 156px; left: 0;}
+    100%{ top: 0; left: 0;}
+}
+.aqcia{
+    margin-top: 16px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.time{
+    margin-top: 30px;
+    margin-left: 86px;
+    font-size: 36px;
+
+}
+.mart2{
+    width: 932px;
+    height: 500px;
+    
+    position: absolute;
+    top: 526px;
+    right:  30px;
+    
+}
+.gero{
+    width: 0;
+    height: 430px;
+    border: 1px solid #C4C4C4;
+    margin: 0 auto;
+    margin-top: 66px;
+   }
+   .martk1{
+    width: 466px;
+    height: 70px;
+    
+   }
+   .pirveli{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    display: flex;
+   }
+   .meore{
+    position: absolute;
+    top: 100px;
+    right:0
+     ;
+     display: flex;
+   }
+   .mesame{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    display: flex;
+   }
+   .meotxe{
+    position: absolute;
+    top: 310px;
+    right: 0;
+    display: flex;
+   }
+   .fotoli{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0px 35px 0px 35px;
+    
+   }
+   .fotoli:hover{
+    background-color: #79B331;
+   }
+   .text1{
+    
+    font-size: 16px;
+    margin-left:   50px;
+    }
+   
+  
+   .fotoli2{
+    transform: rotate(90deg);
+    
+   }
+   
+   
+   .text2{
+    font-size: 16px;
+    margin-left: 50px;
+    
+   }
+   p:hover{
+    color: #79B331;
+   }
+   
+   
+
+
+
+   
+
